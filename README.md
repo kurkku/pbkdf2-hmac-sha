@@ -10,8 +10,8 @@ The algorithms applies a pseudo-random function -- SHA256 HMAC in this case -- t
 Using a salt along with the password reduces the ability to use rainbow tables to crack the hash. Increasing the number of iterations makes it harder to crack the password using brute force methods but it slows down the key derivation too.
 
 More information:
-* (RCF2898)[https://tools.ietf.org/html/rfc2898]
-* (Wikipedia)[https://en.wikipedia.org/wiki/PBKDF2]
+* [RCF2898](https://tools.ietf.org/html/rfc2898)
+* [Wikipedia](https://en.wikipedia.org/wiki/PBKDF2)
 
 ## Usage
 See `test.c` for a sample program.
